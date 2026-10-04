@@ -1,3 +1,5 @@
+//printing student information with structure of arrays
+
 #include<stdio.h>
 #include<string.h> 
 
