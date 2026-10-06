@@ -10,8 +10,7 @@ struct student{
 };
 
 int main(){
-    // struct student s1={"Rhitam", 41, 9.7};
-    // printf("Student name: %s\n", s1.name);
+    struct student s1={"Rhitam", 41, 9.7};
 
     struct student *ptr=&s1;
     printf("student name: %s\n", (*ptr).name);
